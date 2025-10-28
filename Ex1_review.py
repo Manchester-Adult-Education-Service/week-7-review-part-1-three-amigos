@@ -42,7 +42,7 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 name = input("What is your name?\n").title()
-age = input("What is your age?\n")
+age = int(input("What is your age?\n"))
 print(f"Hello {name}, you are {age} years old.")
 
 # -------------------------------------------
@@ -80,8 +80,10 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
-
-
+next_yr_age = age+1
+print(f"Next year, you will be {next_yr_age} years old")
+decades = round(age/10)
+print(f"That means you are {decades} decades old.")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
