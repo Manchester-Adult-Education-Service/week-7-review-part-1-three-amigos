@@ -41,7 +41,9 @@ print("-------------------------------------------\n"
 # Output: Hello Sam, you are 30 years old.
 #
 # Write your code below:
-
+name = input("What is your name?\n").title()
+age = input("What is your age?\n")
+print(f"Hello {name}, you are {age} years old.")
 
 # -------------------------------------------
 # SWAP COMPUTERS
