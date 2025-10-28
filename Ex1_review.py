@@ -117,7 +117,7 @@ print("-------------------------------------------\n"
 if age >= 61 and age <= 79:
     print("You are a Boomer!")
 elif age >= 45 and age <= 60:
-    prin("You are Gen X!")    
+    print("You are Gen X!")    
 elif age >= 29 and age <= 44:
     print("You are a Millenial!")
 else:
@@ -184,7 +184,8 @@ print("-------------------------------------------\n"
 #     Next year you will be <next_year_age>. That’s about <decades> decades old!"
 #
 # Write your code below:
-
+print(f"""Hello {name}! You are {age} years old, born in {year_of_birth}.
+Next year you will be {next_yr_age}. That’s about {decades} decades old!""")
 
 # -------------------------------------------
 # SWAP COMPUTERS
